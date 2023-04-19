@@ -2105,6 +2105,7 @@ input, select, textarea {
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
+		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
 			background: rgba(224, 224, 224, 0.15);
@@ -2114,6 +2115,7 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select {
 		line-height: 1em;
 	}
@@ -2862,6 +2864,7 @@ input, select, textarea {
 		#footer input[type="text"]:focus,
 		#footer input[type="password"]:focus,
 		#footer input[type="email"]:focus,
+		#footer input[type="tel"]:focus,
 		#footer select:focus,
 		#footer textarea:focus {
 			border-color: #ffffff;
